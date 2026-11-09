@@ -40,5 +40,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Folio-Android-APK
-          path: apps/mobile/androidApp/build/outputs/apk/d
-          ebug/*.apk
+                    path: apps/mobile/androidApp/build/outputs/apk/debug/*.apk
